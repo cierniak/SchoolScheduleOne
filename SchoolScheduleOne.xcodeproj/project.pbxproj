@@ -14,6 +14,7 @@
 		0BF4E5112354889500F82DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4E5102354889500F82DA9 /* Assets.xcassets */; };
 		0BF4E5142354889500F82DA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4E5132354889500F82DA9 /* Preview Assets.xcassets */; };
 		0BF4E5172354889500F82DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF4E5152354889500F82DA9 /* LaunchScreen.storyboard */; };
+		0BF4E51F23548B2000F82DA9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4E51E23548B2000F82DA9 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0BF4E5132354889500F82DA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BF4E5162354889500F82DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BF4E5182354889500F82DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF4E51E23548B2000F82DA9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				0BF4E5072354889400F82DA9 /* AppDelegate.swift */,
 				0BF4E5092354889400F82DA9 /* SceneDelegate.swift */,
 				0BF4E50E2354889400F82DA9 /* ContentView.swift */,
+				0BF4E51E23548B2000F82DA9 /* Student.swift */,
 				0BF4E5102354889500F82DA9 /* Assets.xcassets */,
 				0BF4E5152354889500F82DA9 /* LaunchScreen.storyboard */,
 				0BF4E5182354889500F82DA9 /* Info.plist */,
@@ -152,6 +155,7 @@
 				0BF4E50D2354889400F82DA9 /* SchoolScheduleOne.xcdatamodeld in Sources */,
 				0BF4E5082354889400F82DA9 /* AppDelegate.swift in Sources */,
 				0BF4E50F2354889400F82DA9 /* ContentView.swift in Sources */,
+				0BF4E51F23548B2000F82DA9 /* Student.swift in Sources */,
 				0BF4E50A2354889400F82DA9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
