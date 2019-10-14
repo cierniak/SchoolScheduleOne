@@ -39,7 +39,15 @@ struct ContentView: View {
                 }.font(.headline)
                 Section(header: Text("Students")) {
                     ForEach(self.students) { student in
-                        StudentView(name: student.name!, studentId: "id")
+                        StudentView(name: student.name!, studentId: student.studentId!.uuidString)
+                    }.onDelete {indexSet in
+                        let deleteItem = self.students[indexSet.first!]
+                        self.managedObjectContext.delete(deleteItem)
+                        do {
+                            try self.managedObjectContext.save()
+                        } catch {
+                            print(error)
+                        }
                     }
                 }
             }
